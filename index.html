@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="style.css">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
     <body>
-        <div class="container">
-            <div class="rectangle">
+        <div class="container grid__row">
+            <div class="rectangle grid__column-1">
                 <p class="rectangle__title">GOODMOODS</p>
                 <ul class="rectangle__content--ul">
                     <li class="rectangle__content--li">FB</li>
@@ -12,32 +15,46 @@
                     <li class="rectangle__content--li">IG</li>
                 </ul>
             </div>
-            <div class="image">
-                <img class="image__1" src="/assets/image/image 1.png" alt="">
-                <p class="content__casestudy">CASE STUDY</p>
-                <div class="content__classic-modern">
-                    <p>Classic</p>
-                    <br><p>& Modern</p>
+            <div class="image grid__column-5"> <!-- <img class="image__1" src="/assets/image/classicAndModernBackground.png" alt="backround"> -->
+                <div class="content__grid__column-5">
+                    <div class="content__casestudy">
+                        <p>CASE STUDY</p>
+                        <div class="big__line"></div>
+                    </div>
+                    <div class="content__classic-modern">
+                        <p>Classic</p>
+                        <br><p>& Modern</p>
+                    </div>
+                    <div class="button__pagi">
+                        <p>Next</p><br>
+                        <p>Prev</p>
+                    </div>
+                    <div class="pagination">
+                        <span>01 / <span class="sum_pagi">04</span> </span>
+                    </div>
                 </div>
-                <div class="button__pagi">
-                    <p>Next</p><br>ye
-                    <p>Prev</p>
-                </div>
-                <div class="pagination">
-                    <span>01 / <span class="sum_pagi">04</span> </span>
-                </div>
+            </div>
 
-                <p class="content__project">Project Details</p>
-                <div class="content__info">
-                    <p>Las vegas</p>
-                    <p>2022</p>
-                    <p>Exterior & Interior</p>
+            <div class="grid__column--5">
+                <div class="content__grid__column--5">
+                    <div class="content__project">
+                        <p>Project Details</p>
+                    </div>
+                    <div class="content__info">
+                        <p>Las vegas</p>
+                        <p>2022</p>
+                        <p>Exterior & Interior</p>
+                    </div>
+                    <div class="line">
+                    </div>
+                    <div class="content__see-casestudy">
+                        <p>See case study</p>
+                    </div>
                 </div>
-                <p class="content__see-casestudy">See case study</p>
                 <div class="image__small">
-                    <img src="/assets/image/image 4.png" alt="">
-                    <img src="/assets/image/image 3.png" alt="">
-                    <img src="/assets/image/image 2.png" alt="">
+                    <img src="/assets/image/classicAndModernView1.png" alt="view1">
+                    <img src="/assets/image/classicAndModernView2.png" alt="view2">
+                    <img src="/assets/image/classicAndModernView3.png" alt="view3">
                 </div>
             </div>
         </div>
